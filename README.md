@@ -10,12 +10,13 @@ This script runs multiple evals simultaneously and supports both assistants and 
 - Create a .env file in the same directory:  
 VAPI_API_KEY=your_api_key_here
 - CSV file in the following format:  
-name,eval_id,agent_id,is_squad,enabled  
-- name     - Friendly name for the eval
-- eval_id  - The VAPI eval ID
-- agent_id - Assistant ID or Squad ID
-- is_squad - true if using squad, false if assistant
-- enabled  - true to run, false to skip
+name,eval_id,agent_id,is_squad,enabled
+
+name     - Friendly name for the eval  
+eval_id  - The VAPI eval ID  
+agent_id - Assistant ID or Squad ID  
+is_squad - true if using squad, false if assistant  
+enabled  - true to run, false to skip  
 
 ## Usage
 python runEvals.py evals.csv
