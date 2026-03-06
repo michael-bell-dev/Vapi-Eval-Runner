@@ -22,20 +22,16 @@ enabled  - true to run, false to skip
 python runEvals.py evals.csv
 
 ## Example Output
-============================================================
 Running 2 evals, 3 times each
-============================================================
 
-📋 Greeting Test
+Greeting Test
    Run 1: ✅ PASS (ID: run_abc123)
    Run 2: ❌ FAIL (ID: run_def456)
    Run 3: ✅ PASS (ID: run_xyz789)
 
-📋 Sales Squad Test
+Sales Squad Test
    Run 1: ✅ PASS (ID: run_111222)
    Run 2: ✅ PASS (ID: run_333444)
    Run 3: ✅ PASS (ID: run_555666)
 
-============================================================
-🎉 All evaluations complete!
-============================================================
+All evaluations complete!
